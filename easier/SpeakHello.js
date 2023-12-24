@@ -1,5 +1,6 @@
 // Wrap the entire contents of SpeakHello.js inside of an IIFE
-console.log('Hello JS')(function () {
+console.log('Hello JS');
+(function () {
 	// Create an object, called 'helloSpeaker'
 	var helloSpeaker = {};
 

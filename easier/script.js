@@ -12,7 +12,8 @@
 		'Laura',
 		'Jim',
 	];
-
+	let helloSpeaker = {};
+	let byeSpeaker = {};
 	// Loop over the names array and say either 'Hello' or "Good Bye"
 	for (var i = 0; i < names.length; i++) {
 		// Retrieve the first letter of the current name in the loop.
