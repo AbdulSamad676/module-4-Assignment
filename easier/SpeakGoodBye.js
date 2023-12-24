@@ -5,6 +5,7 @@
 
 	// Attach the "speak" method to the 'byeSpeaker' object
 	byeSpeaker.speak = function (name) {
+		let speakWord = 'Good Bye';
 		console.log(speakWord + ' ' + name);
 	};
 
