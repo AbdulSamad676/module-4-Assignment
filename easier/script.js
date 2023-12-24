@@ -1,4 +1,9 @@
+document.write(
+	'<script type="text/javascript" src="SpeakGoodBye.js"></script>'
+);
+document.write('<script type="text/javascript" src="SpeakHello.js"></script>');
 // Wrap the entire contents of script.js inside of an IIFE
+
 (function () {
 	var names = [
 		'Yaakov',
